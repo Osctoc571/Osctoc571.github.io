@@ -12,7 +12,7 @@ func:function()
 	new G.Res({
 		name:'test_food',
 		desc:'Test_food',
-		icon:0,
+		icon:[0,0,'iconSheet'],
 		turnToByContext:{'eat':{'health':0.01,'happiness':0.03},'decay':{'spoiled food':0.5}},
 		partOf:'food',
 		category:'food',
