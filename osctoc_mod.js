@@ -1,7 +1,7 @@
 G.AddData({
-name:'Example mod',
+name:'osctoc_mod',
 author:'Os',
-desc:'A simple example mod that adds hot peppers and hot sauce.',
+desc:'A mod',
 engineVersion:1,
 manifest:'https://osctoc571.github.io/osctoc_mod.js',
 requires:['Default dataset*'],
