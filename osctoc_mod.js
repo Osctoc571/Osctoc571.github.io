@@ -18,7 +18,7 @@ func:function()
 		G.textWithTooltip('<div class="icon freestanding" style="'+G.getIconUsedBy(G.getRes('herb'))+'"></div><div class="freelabel">x250</div>','250 Herbs')+
 		G.textWithTooltip('<div class="icon freestanding" style="'+G.getIconUsedBy(G.getRes('water'))+'"></div><div class="freelabel">x250</div>','250 Water')+
 		'</div>'+
-		'<div class="a.</div>'+
+		'<div class=">adfgfgdsfgsdfsdfcszcxszdfcafdqwdqaWSDXASDXASSDQWDQDXASDAWQDXASDXA.</div>'+
 		'<div class="par fancyText bitBiggerText">You emerge as the tribe\'s leader. They call you :</div>';
 		return str;
 	}
