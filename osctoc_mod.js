@@ -4,6 +4,7 @@ author:'Os',
 desc:'A mod',
 engineVersion:1,
 manifest:'https://osctoc571.github.io/osctoc_mod.js',
+requires:['Default dataset*'],
 sheets:{'iconSheet':'https://osctoc571.github.io/Iconsheet_osctoc.png'},
 func:function()
 {
@@ -16,4 +17,6 @@ func:function()
 			'<div class="par fancyText bitBiggerText">You emerge as the tribe\'s leader. They call you :</div>';
 			return str;
 		}
+
+	delete G.getDict('grass').res.gather['food'];
 });
