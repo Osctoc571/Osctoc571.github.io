@@ -8,6 +8,20 @@ requires:['Default dataset*'],
 sheets:{'iconSheet':'https://osctoc571.github.io/Iconsheet_osctoc.png'},
 func:function()
 {
+	G.funcs['new game blurb']=function()
+	{
+		var str=
+		'<b>Your tribe :</b><div class="thingBox">'+
+		G.textWithTooltip('<div class="icon freestanding" style="'+G.getIconUsedBy(G.getRes('adult'))+'"></div><div class="freelabel">x5</div>','5 Adults')+
+		G.textWithTooltip('<div class="icon freestanding" style="'+G.getIconUsedBy(G.getRes('elder'))+'"></div><div class="freelabel">x1</div>','1 Elder')+
+		G.textWithTooltip('<div class="icon freestanding" style="'+G.getIconUsedBy(G.getRes('child'))+'"></div><div class="freelabel">x2</div>','2 Children')+
+		G.textWithTooltip('<div class="icon freestanding" style="'+G.getIconUsedBy(G.getRes('herb'))+'"></div><div class="freelabel">x250</div>','250 Herbs')+
+		G.textWithTooltip('<div class="icon freestanding" style="'+G.getIconUsedBy(G.getRes('water'))+'"></div><div class="freelabel">x250</div>','250 Water')+
+		'</div>'+
+		'<div class="a.</div>'+
+		'<div class="par fancyText bitBiggerText">You emerge as the tribe\'s leader. They call you :</div>';
+		return str;
+	}
 
 	new G.Res({
 		name:'test_food',
