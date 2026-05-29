@@ -23,6 +23,38 @@ func:function()
 		return str;
 	}
 
+	G.resCategories={
+		'main':{
+			name:'Essentials',
+			base:[],
+			side:['population','worker','happiness','health','land','coin'],
+		},
+		'demog':{
+			name:'Demographics',
+			base:['baby','child','adult','elder','worker','sick','wounded'],
+			side:['population','housing','corpse','burial spot'],
+		},
+		'food':{
+			name:'Food & Water',
+			base:[],
+			side:['food','spoiled food','water','muddy water','food storage'],
+		},
+		'build':{
+			name:'Crafting & Construction',
+			base:[],
+			side:['archaic building materials','basic building materials','advanced building materials','precious building materials','material storage'],
+		},
+		'gear':{
+			name:'Gear',
+			base:[],
+			side:[],
+		},
+		'misc':{
+			name:'Miscellaneous',
+			base:[],
+		},
+	};
+
 	new G.Res({
 		name:'test_food',
 		desc:'Test_food',
