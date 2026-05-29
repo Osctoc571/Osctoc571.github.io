@@ -7,5 +7,11 @@ manifest:'https://osctoc571.github.io/osctoc_mod.js',
 sheets:{'iconSheet':'https://osctoc571.github.io/Iconsheet_osctoc.png'},
 func:function()
 {
+  G.funcs['new game blurb']=function()
+	{
+		'<div class=">adfgfgdsfgsdfsdfcszcxszdfcafdqwdqaWSDXASDXASSDQWDQDXASDAWQDXASDXA.</div>'+
+		'<div class="par fancyText bitBiggerText">You emerge as the tribe\'s leader. They call you :</div>';
+		return str;
+	}
 }
 });
