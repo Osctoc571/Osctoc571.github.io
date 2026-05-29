@@ -7,9 +7,11 @@ manifest:'https://osctoc571.github.io/osctoc_mod.js',
 sheets:{'iconSheet':'https://osctoc571.github.io/Iconsheet_osctoc.png'},
 func:function()
 {
-  G.funcs['new game blurb']=function()
+	G.funcs['new game blurb']=function()
 	{
-		'<div class=">adfgfgdsfgsdfsdfcszcxszdfcafdqwdqaWSDXASDXASSDQWDQDXASDAWQDXASDXA.</div>'+
+		var str=
+		'<b>Your tribe :</b><div class="thingBox">'+
+		'<div class="par fancyText bitBiggerText">Your tribe finds a place to settle in the wilderness.<br>Resources are scarce, and everyone starts foraging.</div>'+
 		'<div class="par fancyText bitBiggerText">You emerge as the tribe\'s leader. They call you :</div>';
 		return str;
 	}
