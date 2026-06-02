@@ -1665,7 +1665,6 @@ GG.AddData({
 		new G.Res({
 			name: 'literacy',
 			desc: '[literacy] represents the average ability to read or write of your [population].//It determines the [experience] gain rate of the [population] size.//It can be improved by teachers and schools.',
-			startWith: 10000000,
 			visible: false,
 			icon: [10, 3, 'H1sheet'],
 			fractional: true,
@@ -1677,7 +1676,7 @@ GG.AddData({
 		new G.Res({
 			name: 'experience',
 			desc: '[experience] represents your people\'s discovery in the world, unlike [insight]s and other resources, it is passively gained based on your [population] size and [literacy].//' + limitDesc('[record]') + '//Many technologies require experience to be researched.',
-			startWith: 10000000,
+			startWith: 100000,
 			icon: [6, 4],
 			category: 'main',
 			limit: 'record',
@@ -1705,7 +1704,7 @@ GG.AddData({
 		new G.Res({
 			name: 'insight',
 			desc: '[insight] represents your people\'s ideas and random sparks of intuition.//' + limitDesc('[wisdom]') + '//Many technologies require insight to be researched.',
-			startWith: 10000000,
+			startWith: 100000,
 			icon: [8, 4],
 			category: 'main',
 			limit: 'wisdom',
@@ -1714,7 +1713,6 @@ GG.AddData({
 		});
 		new G.Res({
 			name: 'wisdom',
-			startWith: 10000000,
 			hidden: true,
 			icon: [8, 5],
 			category: 'main',
@@ -1739,7 +1737,7 @@ GG.AddData({
 		new G.Res({
 			name: 'culture',
 			desc: '[culture] is produced when your people create beautiful and thought-provoking things.//' + limitDesc('[inspiration]') + '//Culture is used to develop cultural traits.',
-			startWith: 10000000,
+			startWith: 100000,
 			icon: [10, 4],
 			category: 'main',
 			limit: 'inspiration',
