@@ -1676,7 +1676,6 @@ GG.AddData({
 		new G.Res({
 			name: 'experience',
 			desc: '[experience] represents your people\'s discovery in the world, unlike [insight]s and other resources, it is passively gained based on your [population] size and [literacy].//' + limitDesc('[record]') + '//Many technologies require experience to be researched.',
-			startWith: 100000,
 			icon: [6, 4],
 			category: 'main',
 			limit: 'record',
@@ -1737,7 +1736,6 @@ GG.AddData({
 		new G.Res({
 			name: 'culture',
 			desc: '[culture] is produced when your people create beautiful and thought-provoking things.//' + limitDesc('[inspiration]') + '//Culture is used to develop cultural traits.',
-			startWith: 100000,
 			icon: [10, 4],
 			category: 'main',
 			limit: 'inspiration',
